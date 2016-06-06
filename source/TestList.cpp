@@ -16,14 +16,6 @@ TEST_CASE("test empty list", "[modifiers]")
 
 }
 
-TEST_CASE ("add an element with push_front ", "[ modifiers ]")
-{
-	List <int > list ;
-	list . push_front (42);
-	REQUIRE (42 == list . front ());
-}
-
-
 
 int main(int argc, char *argv[])
 {
